@@ -18,7 +18,7 @@
 
 ## Credits
 
-<p algin = "justify">Some styling and fonts for the CV is taken from [Awesome-CV](https://github.com/posquit0/Awesome-CV). Also I would like to mention Michael DeCorte whose [Open-Source Resume Class for LaTeX](https://www.ctan.org/pkg/res) inspired me while creating this design.</p>
+<p algin = "justify">Some styling and fonts for the CV is taken from <a href = "https://github.com/posquit0/Awesome-CV">Awesome-CV</a>. Also I would like to mention Michael DeCorte whose <a href = "https://www.ctan.org/pkg/res">Open-Source Resume Class for LaTeX</a> inspired me while creating this design.</p>
 
 ## Motivation for Design
 Most of the Modern-CV Template came in a two-column variant of some sort, which I specifically do not like (and sometimes is also unadvised by many). Thus I came up with the idea of creating a New Template (while I was trying my hands for first time on LaTeX)!
