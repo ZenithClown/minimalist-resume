@@ -3,11 +3,6 @@
 </h1>
 
 <p align = "center"><b>Simple yet Stylish Resume Template for Job Application!</b></p>
-<h1 align = "center">
-  Minimalist Résume
-</h1>
-
-<p align = "center"><b>Simple yet Stylish Resume Template for Job Application!</b></p>
 
 
 
