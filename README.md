@@ -2,7 +2,11 @@
   Minimalist Résume
 </h1>
 
-<p align = "center"><b>Simple yet Stylish Resume Template for Job Application!</b></p>
+<p align = "center">
+  <b>Simple yet Stylish Resume Template for Job Application!</b><br>
+  <img alt="GitHub" src="https://img.shields.io/github/license/ZenithClown/minimalist-resume?style=plastic">
+  <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=dPramanik&logo=Linkedin&style=plastic&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdpramanik%2F">
+</p>
 
 
 
