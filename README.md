@@ -1,14 +1,22 @@
 <h1 align = "center">
-  Minimalist Résume
+	Minimalist Résume <br>
+	<a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+	<a href = "https://github.com/ZenithClown"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a>
+	<a href = "https://gitlab.com/ZenithClown/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a>
+	<a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a>
+	<a href = "https://www.kaggle.com/dPramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
+	<a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
+	<a href = "https://stackoverflow.com/users/6623589/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
+	<br>
+	<a href = "https://web.whatsapp.com/send?phone=917980092850"><img src = "https://img.shields.io/badge/Contact%20Me-(%2B91)%2079800%2092850-lightgrey?style=plastic&logo=whatsapp"></a>
+	<a href="mailto:pPramanik.official@gmail.com"><img src = "https://img.shields.io/badge/Contact%20Me-Email-lightgrey?style=plastic&logo=gmail"></a>
+	<br>
+	<img src = "https://img.shields.io/badge/Code-Passing-blue?style=plastic&logo=latex">
+  <img alt="GitHub" src="https://img.shields.io/github/license/ZenithClown/minimalist-resume?style=plastic">
+	<img src = "https://img.shields.io/badge/Version-0.1-%23226b5d?style=plastic">
 </h1>
 
-<p align = "center">
-  <b>Simple yet Stylish Resume Template for Job Application!</b><br>
-  <img alt="GitHub" src="https://img.shields.io/github/license/ZenithClown/minimalist-resume?style=plastic">
-  <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=dPramanik&logo=Linkedin&style=plastic&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdpramanik%2F">
-</p>
-
-
+<p align = "center"><b>Simple yet Stylish Resume Template for Job Application!</b></p>
 
 ## Motivation for Design
 
