@@ -1,3 +1,7 @@
+<table style="width:100%; border-collapse: collapse; border: none;">
+	<tr>
+		<th><img height = "175" width = "275" src = "logo.png"></th>
+		<th>
 <h1 align = "center">
 	Minimalist Résume <br>
 	<a href = "https://www.linkedin.com/in/dpramanik/"><img height="16" width="16" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
@@ -15,8 +19,9 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/ZenithClown/minimalist-resume?style=plastic">
 	<img src = "https://img.shields.io/badge/Version-0.1-%23226b5d?style=plastic">
 </h1>
-
-<p align = "center"><b>Simple yet Stylish Resume Template for Job Application!</b></p>
+		</th>
+	</tr>
+</table>
 
 ## Motivation for Design
 
