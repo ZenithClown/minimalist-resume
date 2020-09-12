@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 name: Debmalya Pramanik
 title: Data Science and Analyst
 email: dPramanik.official@gmail.com
-website: www.github.com/ZenithClown/minimalist-resume
+# website: www.github.com/ZenithClown/minimalist-resume
 
 # Social links
 # twitter_username: facespics
@@ -14,7 +14,7 @@ github_username:  ZenithClown
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: chillwildlife
+instagram_username: mr_hobo2
 linkedin_username: dpramanik
 # pinterest_username: jekyll
 # youtube_username: globalmtb
