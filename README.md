@@ -20,7 +20,7 @@
 	<img src = "https://img.shields.io/badge/Version-0.1-%23226b5d?style=plastic">
 </h1>
 		</th>
-	<th><a href = ""><img height = "16" width = "16" src = "www_logo.png"></a></th>
+	<th><a href = "">Visit Résume WebPage<img height = "16" width = "16" src = "www_logo.png"></a></th>
 	</tr>
 </table>
 
