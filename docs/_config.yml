@@ -1,23 +1,23 @@
 # Site
-repository: sproogen/resume-theme
+repository: ZenithClown/minimalist-resume
 favicon: images/favicon.ico
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Debmalya Pramanik
+title: Data Science and Analyst
+email: dPramanik.official@gmail.com
+website: www.github.com/ZenithClown/minimalist-resume
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  ZenithClown
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+# instagram_username: chillwildlife
+linkedin_username: dpramanik
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
