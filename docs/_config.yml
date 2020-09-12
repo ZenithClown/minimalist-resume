@@ -5,7 +5,7 @@ favicon: images/favicon.ico
 # Personal info
 name: Debmalya Pramanik
 title: Data Science and Analyst
-email: dPramanik.official@gmail.com
+email: DebmalyaPramanik.005@gmail.com
 # website: www.github.com/ZenithClown/minimalist-resume
 
 # Social links
@@ -24,9 +24,21 @@ linkedin_username: dpramanik
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  A skilled person, with expertise in Machine Learning, Data Science, Model Development, Python, Visualizations, Statistics, and
+  Optimizations with about 4 years of experience.
+  Currently working at Reliance Industries Ltd. with a major in Electrical and Electronics Engineering and having masters in
+  Power Electronics and Electrical Drives (PEED) from Indian Institute of Technology (IIT), Dhanbad. <br><br><br>
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  <center>
+  <a href = "https://www.linkedin.com/in/dpramanik/"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/linkedin.svg"/></a>
+  <a href = "https://github.com/ZenithClown"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/github.svg"/></a>
+  <a href = "https://gitlab.com/ZenithClown/"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/gitlab.svg"/></a>
+  <a href = "https://www.researchgate.net/profile/Debmalya_Pramanik2"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/researchgate.svg"/></a>
+  <a href = "https://www.kaggle.com/dPramanik/"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/kaggle.svg"/></a>
+  <a href = "https://app.pluralsight.com/profile/Debmalya-Pramanik/"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/pluralsight.svg"/></a>
+  <a href = "https://stackoverflow.com/users/6623589/"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/stackoverflow.svg"/></a>
+  <a href = "https://www.hackerrank.com/dPramanik"><img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/hackerrank.svg"/></a>
+  </center>
 
 # Projects Section
 # projects_title: Projects
@@ -39,12 +51,12 @@ about_content: | # this will include new lines to allow paragraphs
 
 # More Section
 # more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+# more_content: | # this will include new lines to allow paragraphs
+#   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#    - Rock climbing
+#    - Gaming
+#    - Knitting
+#    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
