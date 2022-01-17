@@ -34,7 +34,7 @@
 
 ### Branches
 
-<p align = "justify"><a href = ""><b>Cover Letter</b></a> is an integral part of resume, and the same is developed keeping the styling and formatting same as that of the resume.</p>
+<p align = "justify"><a href = "https://github.com/ZenithClown/minimalist-resume/tree/coverletter"><b>Cover Letter</b></a> is an integral part of resume, and the same is developed keeping the styling and formatting same as that of the resume.</p>
 
 ## Usage
 
