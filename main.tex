@@ -1,14 +1,13 @@
-%!TeX spellcheck = en_US
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
+% !TeX spellcheck = en_US
 
-%-----------------------------------------------%
-%	File Information : (Minimalistic) Résume	%
-%												%
-%	Author : Debmalya Pramanik					%
-%	<dPramanik.official@gmail.com>				%
-%-----------------------------------------------%
+%% Uses same structure as the resume. Modified for Cover Letter - wherever required.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%			PAGE CONFIGURATIONS & Packages		 %%%
+%%%	NOTE: Check PackageConfig.tex for More Info. %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt, a4paper]{article}
 
 \usepackage{lmodern}
@@ -16,7 +15,7 @@
 \usepackage{lettrine}            % First Letter of Large Size is called as lettrine
 \usepackage{multicol}            % Package for Easy Rendering of Multiple Columns
 \usepackage{graphicx}
-\usepackage{hyphenat}            % Usage \nohyphens{<long-length-word>}
+\usepackage[none]{hyphenat}      % Usage \nohyphens{<long-length-word>}
 \usepackage{geometry}            % Package for Defining Margin
 \usepackage{fancyhdr}            % Using fancyhdr for Header & Footer Control
 \usepackage{blindtext}           % for generating Lorem-Ipsum Dummy Text
@@ -28,10 +27,13 @@
 \usepackage[dvipsnames]{xcolor}  % Text (Custom) Colors
 \usepackage[hidelinks]{hyperref} % DONOT Highlight URLs (remove optional Argumemnts?)
 
+\input{"./PackageConfig.tex"}    % Inserting all Package Configurations
 \input{"./AuthorDetails.tex"}    % Inserting Author Details Informations
-\input{"./PackageConfig.tex"}    % Inserting all Global Commands & Configurations
+\input{"./information-coverletter.tex"} % Include other information for cover letter
 
 %%% --- MAIN DOCUMENT --- %%%
+
+\setlength{\parindent}{0em}
 
 \begin{document}
 	\begin{center}
@@ -48,21 +50,36 @@
 		\vspace{-13pt} \\
 	}
 	
-	%%% --- SUMMARY SECTION --- %%%
-	\lettrine{\DropCaps A \hspace{1pt}}{nticipating} an engaging working environment where I can devote my knowledge and expertise, that will facilitate operating costs, improving speed and accuracy of a system.
+	%%% --- Cover Letter --- %%%
+	 \addressee{Whom it May Concern}{Company/Organization, Address}
+%	\addressee{Prof. XYZ}{Name of the Place}
 	
-	%% Words to include : (statistical, predictive, data) modelling; predictive analytics; query optimization;
+	%%% --- >>> START : LETTER FOR PhD. APPLICATION <<< --- %%%
+	% POINTS/NOTES that can be included into the PhD Application
+	% 1. Advantage of considering my canditure for PhD as I have an industry experience, and how it will help in efficient system
+	%%% --- >>> END : LETTER FOR PhD. APPLICATION <<< --- %%%
 	
-	%\begin{center}
-	%	>>> BOOK PUBLICATION
-	%\end{center}
+	%%% --- >>> START : GENERAL LETTER STRUCTURE FOR JOB OPPORTUNITY <<< --- %%%
+	% \begin{flushleft}
+	I have completed my graduations from Neotia Institute of Technology Management and Science under the Maulana Abul Kalam Azad University of Technology (formerly West Bengal University of Technology, WBUT) majoring in Electrical and Electronics Engineering. \\[5pt]
 	
-	%%% --- All Other Sections are Imported from ./sections/*.tex Files --- %%%
-	\input{"./sections/WExp.tex"} % Work Experience
-	\pagebreak
-	\input{"./sections/publications.tex"} % Publications
-	\input{"./sections/skills.tex"} % Skills (but maybe not only restricted to Programming Skills)
-	\pagebreak
-	\input{"./sections/EduDetails.tex"} % Education Details
-	\input{"./sections/courses.tex"} % Additional Courses like MOOCs etc.
+	I'm currently working at Reliance Industries as a Data Analyst since October 2016, and have experience in Python, Machine Learning,SQL, Tableau, Spark with Python (PySpark), Hive, and Deep Learning. \\[5pt]
+	
+	I take advantage of the Data Science and Analyst Team in Reliance Industries, wherein close guidance, I devise Rule-Based Algorithms together with Analytic-Driven, Data-Wrangling Methodologies which facilitate my responsibilities for building Business Logics which is not only restricted to saving operational costs, improving speed and accuracy of the system and enhancing customer-experience quality. \\[5pt]
+	
+	Along with my professional expertise, I have completed my masters in Power Electronics and Electrical Drives from Indian Institute of Technology (IIT-ISM), Dhanbad, which gave me a strong foothold to devise optimized solutions, and carry out tasks assigned to me. \\[5pt]
+	
+	% My resume indicates that I’m a hardworking, goal-oriented person who is well equipped to work in a group and/or individually. I’m responsible enough and can complete an assigned task on time. I thus would like you to consider my resume along with it. \\[5pt]
+	
+	I am motivated to learn new skills, and it is one of my lifelong dream to be able to apply my skills and knowledge into financial services - a place where numbers matters! \\[5pt]
+	
+	With the aforesaid qualities and expertise of mine, I am confident that I can offer you the skills that you are seeking. I would like to consider myself for a personal interview at your convenience. \\[5pt]
+	
+	Your kind and a valuable reply are highly appreciated. \\[5pt]
+	
+	Wish the letter reaches you in Good Health. \\[7pt]
+	
+	Regards, \\ \AuthorFullName
+	% \end{flushleft}
+	%%% --- >>> END: GENERAL LETTER STRUCTURE FOR JOB OPPORTUNITY <<< --- %%%
 \end{document}

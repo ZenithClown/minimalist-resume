@@ -1,0 +1,46 @@
+\newcommand{\CompanyName}{ % Usage: \CompanyName{<name-of-the-company>}
+	Company Name
+}
+
+\newcommand{\UniversityName}{ % Usage: \UniversityName{<name-of-the-university>}
+	Name of the University, \\
+	Dept. of ABC,
+}
+
+\newcommand{\PositionName}{ % Usage: \PositionName{<name-of-the-position-applying>}
+	<Position Name>
+}
+
+% Command: Include Address
+\newcommand{\addressee}[2]{ % Usage: \addressee{<person-name>}{<location>}
+	% \addressee: is for inserting addressee at the top, with subject and date
+	% Opening paragraph is included here - by default!
+	\begin{flushright}
+		\textbf{Date:} \today
+	\end{flushright}
+	
+	\begin{flushleft}
+		To, \\ \textbf{#1}, \\
+		\CompanyName, \\ #2
+		% \UniversityName, \\ #2
+	\end{flushleft}
+
+	\begin{center}
+		\textbf{Subject:} Cover Letter for the Application of {\PositionName}
+		
+		%%% --- uncomment for subject-line without a 'position name' --- %%%
+		% \textbf{Subject:} Cover Letter for a Job Opportunity
+	\end{center}
+
+	%%% --- >>> START : LETTER FOR PhD. APPLICATION <<< --- %%%
+%	\lettrine{\DropCaps M \hspace{1pt}}{ajoring} in Electrical and Electronics Engineering with a masters in Power Electronics and Electrical Drives, and an industrial knowledge, I am seeking for \textbf{\PositionName} under your mentorship. A brief into my background will surely reveal an unqiue person who can work with close coordination with an academic person to provide an solution which can be accepted and implemented into the ongoing industry. \\
+	%%% --- >>> END : LETTER FOR PhD. APPLICATION <<< --- %%%
+
+	%%% --- >>> START : GENERAL LETTER STRUCTURE FOR JOB OPPORTUNITY <<< --- %%%
+	 \lettrine{\DropCaps I \hspace{1pt}}{t} is great opportunity of mine to receive notification regarding job opportunity, for the position of \textbf{\PositionName} at \textbf{#2}, and I am sending you my resume for your considerations. \\
+	 %% \lettrine{\DropCaps H \hspace{1pt}}{ello} Adesh, it was good to hear from you on LinkedIn regarding job opportunities at \CompanyName. I'm sending you my resume for consideration for a suitable \PositionName role at your company. \\
+	
+	%%% --- uncomment for intro-paragraph without a 'position name' --- %%%
+	% \lettrine{\DropCaps I \hspace{1pt}}{t} is great opportunity of mine to receive notification regarding a job opportunity, at your esteemed company, and I am sending you my resume for your considerations. \\
+	%%% --- >>> END: GENERAL LETTER STRUCTURE FOR JOB OPPORTUNITY <<< --- %%%
+}
