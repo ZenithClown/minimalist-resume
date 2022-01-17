@@ -1,15 +1,3 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-
-% This File Provides Package Configuration that was Imported
-% Each Settings and Configurations can be Changed from Here.
-%----------------------------------------------------------%
-
-%%% CONFIGURATION for PACKAGE: draftwatermark
-\SetWatermarkText{CONFIDENTIAL}
-\SetWatermarkScale{0.75}
-\SetWatermarkLightness{0.75}
-
 %%% CONFIGURATION for PACKAGE: geometry
 \geometry{left = 1.27cm, right = 1.27cm, top = 1.9cm, bottom = 2.27cm}
 
@@ -19,13 +7,18 @@
 %%% CONFIGURATION for PACKAGE: hyperref
 \hypersetup{ % Guranteed to work with Acrobat Reader, by Adobe
 	pdfpagemode = UseNone, % Do not show any Special Tabs (like bookmarks), while opening PDF
-	pdfstartview = {XYZ null null 0.95} % Set Acrobat Default Display Size (1 = 100%)
+	pdfstartview = {XYZ null null 1.25} % Set Acrobat Default Display Size (1 = 100%)
 }
 
 %%% CONFIGURATION for PACKAGE: xcolor
+\definecolor{llGray}{gray}{0.7}       % Custom (very) Light Gray (llGray) Color
+\definecolor{lGray}{gray}{0.3}        % Custom Light Gray (lGray) Color
 \definecolor{cGray}{gray}{0.5}        % Custom Gray (cGray) Color
 \definecolor{dBlue}{RGB}{42, 52, 97}  % Deep Blue (dBlue) Color
 \definecolor{lBlue}{RGB}{47, 47, 145} % Light Blue (lBlue) Color
+
+%%% bullet command for vertical timeline
+\newcommand{\foo}{\hspace{-2.75pt}$\bullet$ \hspace{5pt}}
 
 %%% CONFIGURATION for PACKAGE: fancyhdr
 \pagestyle{fancy}
@@ -33,13 +26,18 @@
 \fancyfoot[C]{\footnotesize \textcolor{cGray}{ % Start Footer (Centered) Text
 		\textemdash {\FooterNFont \AuthorFullName} \textemdash \\
 		\tiny{
-			\HLinks{Machine Learning}\HLinks{Data Science}\HLinks{Artificial Intelligence}
-			\HLinks{Python}\HLinks{Visualizations}\HLinks{Statistics}\HLinks{Optimizations}
+			\HLinks{Machine Learning (ML)}
+			\HLinks{Data Science}
+			\HLinks{Artificial Intelligence (AI)}
+			\HLinks{Visualizations}
+			\HLinks{Statistics}
+			\HLinks{Optimizations}
+			\HLinks{Open Source Contributor}
 			$\bullet$}
 		\begin{flushright}
 			\vspace{-5pt}
 				\ExtLink{https://github.com/ZenithClown/minimalist-resume}{
-					\tiny Minimalist R\'esume [MIT License] \hspace{-0.3pt} \copyright \hspace{0.7pt} dPramanik
+					\textcolor{lGray}{\tiny Minimalist R\'esume [MIT License] \hspace{-0.3pt} \copyright \hspace{0.7pt} dPramanik}
 				}
 		\end{flushright}
 }}
@@ -49,27 +47,20 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrule}{\textcolor{cGray} \hrule \vspace{7pt}}
 
-%%% CONFIGURATION for PACKAGE: fontawesome (New-Icons with Embeded Hyperlinks)
-\newcommand*{\ExtLink}[2]{\href{#1}{#2 \faExternalLink}}
-\newcommand*{\mobile}[1]{\faMobilePhone \hspace{1pt} #1} % Usage: \mobile{<mobile-number>}
-\newcommand*{\email}[1]{\href{mailto:#1}{\faEnvelope \hspace{1pt} Gmail}}
-\newcommand*{\github}[1]{\href{https://github.com/#1}{\faGithubAlt \hspace{1pt} GitHub}}
-\newcommand*{\linkedin}[2]{\href{https://www.linkedin.com/in/#1/}{\faLinkedin \hspace{1pt} #2}}
-\newcommand*{\pluralsight}[1]{
-	\href{https://app.pluralsight.com/profile/#1/}{\faPlayCircleO \hspace{1pt} PluralSight}
-}
-\newcommand*{\stackoverflow}[1]{
-	\href{https://stackoverflow.com/users/#1/}{\faStackOverflow \hspace{1pt} #1}
-}
-\newcommand*{\researchgate}[1]{
-	\href{https://www.researchgate.net/profile/#1/}{\faBook \hspace{1pt} ResearchGate Publications}
-}
-\newcommand*{\kaggle}[1]{
-	\href{https://www.kaggle.com/#1/}{\faExternalLinkSquare \hspace{1pt} Kaggle-Profile}
+%% Universal External Link Option for fontawesome
+\newcommand*{\social}[3]{ % Provide Social Icons and Badge
+	% Usage: \social{<icon-name>}{<display-text>}{<external-link>}
+	% where <icon-name> can be \faMobilePhone, \faEnvelope or any valid Icons
+	% which are available with font-awesome LaTeX
+	% ICONS: http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf
+	\href{#3}{#1 \space #2}
 }
 
-\newcommand{\HLinks}[1]{$\bullet$ \hspace{0.1pt} #1 \hspace{0.1pt}}
+%%% Global User-Defined Commands
+\newcommand*{\ExtLink}[2]{\href{#1}{#2 \faExternalLink}} % Keep this!
+\newcommand{\HLinks}[1]{$\bullet$ \hspace{0.001pt} #1 \hspace{0.001pt}}
 
+%%% CONFIGURATION for PACKAGE: fontawesome
 \newfontfamily\SectionNameFont[ % Font for Section Names
 	Path = fonts/,
 	Scale = 1.3,

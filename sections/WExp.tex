@@ -11,15 +11,41 @@
 \SectionName{Work Experience}
 
 % Reliance Industries with Multiple Positions
-\CompanyDetails{Reliance Industries Ltd.}{Data Analyst}
-	{October 2016}{\textit{present}}
-	{Navi Mumbai, Maharashtra (India)}
-	{Brijesh Shah (Asst. Vice President)}{https://in.linkedin.com/in/brijesh-shah-81355420}
+\section*{
+	\SectionStylingFont \bfseries \textcolor{dBlue}{Reliance Jio Platforms Ltd. | Data Analyst} \hfill
+	\small {\SectionStylingFontLight \bfseries \textcolor{lBlue}{
+			\textbf{October, 2016} \textemdash \vspace{1pt} \textit{present}
+	}}
+}
+
+\vspace{-13pt}
+
+\scalebox{1}{
+	\begin{tabular}{r |@{\foo} l}
+		\textcolor{dBlue}{\small May, 2021} & {\SectionStylingFontLight \small Promoted as \textit{\bfseries Manager}} \\
+		
+		\textcolor{dBlue}{\small Apr, 2020} & {\SectionStylingFontLight \small Promoted as \textit{\bfseries Deputy Manager}} \\
+		
+		\textcolor{dBlue}{\small Jan, 2019} & {\SectionStylingFontLight \small \textbf{Transferred} to} {\SectionStylingFontLight \bfseries \textcolor{dBlue}{Navi Mumbai, Maharashtra (India)},} {\SectionStylingFontLight \small Reporting to \ExtLink{https://in.linkedin.com/in/brijesh-shah-81355420}{\bfseries Brijesh Shah (Asst. Vice President)}} \\
+		
+		\textcolor{dBlue}{\small Oct, 2016} & {\SectionStylingFontLight Joined as \small \textit{\bfseries Asst. Manager,} at} {\SectionStylingFontLight \bfseries \textcolor{dBlue}{Kolkata, West Bengal (India)},} {\SectionStylingFontLight \small Reporting to \ExtLink{https://in.linkedin.com/in/souravraj}{\bfseries Sourav Raj (Deputy Manager)}}
+	\end{tabular}
+}
+
+\vspace{-7pt}
 
 \begin{itemize}
-	\item Building an Unsupervised Learning Algorithm using \textit{Self Organization Maps} (SOM or KSOFM) to \textbf{Predict User Movement} and Mitigate Coverage Issue by placing one or multiple ODSCs to improve per-user SINR.
-	
-	\item Designing a \textit{Recurrent Neural Network Model} for replacing \textbf{Digital Pre-Distortion (DPD) for Linearization of Power Amplifier (PA)} to achieve Linear Characteristics of PA, and minimizing the inherent 400-500 msec. delay present in DPD.
+	\item Built an Unsupervised Learning Algorithm using \textit{Self Organization Maps} (SOM or KSOFM), with a REST API back-end end (using \textit{flask}) to \textbf{Predict User Movement} and \textbf{Mitigate Coverage Issue} by placing one or multiple ODSCs to improve per-user SINR.
+	\begin{itemize}
+		\item Achieved about a \textbf{3 dB improvement} during development.
+		\item An improvement of \textbf{1.3 to 1.9 dB} is noticed during field test at Mira-Bhyandar JC.
+	\end{itemize}
+
+	\item Design and mathematical modeling of a \textit{Recurrent Neural Network Model (LSTM)} is extensively studied for replacing \textbf{Digital Pre-Distortion (DPD) for Linearization of Power Amplifier (PA)} to achieve Linear Characteristics of PA.
+	\begin{itemize}
+		\item Power Amplifier (PA) model is being developed in MatLAB/Simulink (R2020b), and a \textbf{ACPR -45 dBc is attained} as per \textit{3GPP standard specifications}.
+		\item The LSTM model is trained with a PA I/O data \textit{at constant physical parameters} (like temperature) and a significant out-of-band signal reduction is observed.
+	\end{itemize}
 	
 	\item An algorithm is devised for \textbf{Pro-Active Load Balancing} by \textit{Estimation and Detection} of over-loaded cells based on TA, Delta and Neighbour Cells Measurement Parameters.
 	
@@ -28,10 +54,10 @@
 		
 		\item Neighbour Information is fetched to find the sector which is not overloaded where the devices can be off-loaded.
 		
-		\item Based on the current parameter settings between the unhealthy site and the unloaded neighbour – parameters like A1, A2, A5-T1 and A5-T2 is calculated.
+		% \item Based on the current parameter settings between the unhealthy site and the unloaded neighbour – parameters like A1, A2, A5-T1 and A5-T2 is calculated.
 	\end{itemize}
 
-	\item Building an algorithm for establishing \textbf{backhaul line-of-sight feasibility} between eNode-B (i.e. cells or towers, signal sending end) and ODSC (i.e. outdoor small cells, signal receiving end).
+	\item Building an algorithm for establishing \textbf{back haul line-of-sight feasibility} between eNode-B (i.e. cells or towers, signal sending end) and ODSC (i.e. outdoor small cells, signal receiving end).
 	
 	\begin{itemize}
 		\item AMSL (Above Mean Sea Level) Values between the starting location and ending location is obtained from the Open-Source SRTM Database, and HOP-Length is incorporated into the Elevation Heights, to minimize obstacle interruptions.
@@ -39,9 +65,14 @@
 		\item Fresnel Radius between the two points is calculated.
 		
 		\item Based on the above two parameters, feasibility is calculated between the originating site and its’ nearest three neighbours (i.e. the Customer Demand Point).
-		
-		\item The Nearest Neighbour is calculated from another module.
 	\end{itemize}
+
+	\item Calculation of \textbf{Path Loss} and estimation of cellular network coverage. For this, an area is selected and divided into grids of $20 m^2$, and a neural network model is used to calculate coverage grid-by-grid.
 \end{itemize}
 
 \textbf{Key Achievements :} Closely worked with Network Planning Team, to Design and Automate Line of Sight Feasibility Module which drastically reduced manual field interventions, and estimation of up-front costs.
+
+% \CompanyDetails{XYZ Company Name}{ABC Position}
+% 	{Start-Time}{End-Time}
+% 	{XYZ, ABC Location}
+% 	{John Doe}{https://www.example.com/}
