@@ -1,17 +1,14 @@
+%!TeX spellcheck = en_US
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-%-------------------------------------------------------%
-%	File Information : (Minimalistic) Résume Template	%
-%														%
-%	Author : Debmalya Pramanik							%
-%	<dPramanik.official@gmail.com>						%
-%-------------------------------------------------------%
+%-----------------------------------------------%
+%	File Information : (Minimalistic) Résume	%
+%												%
+%	Author : Debmalya Pramanik					%
+%	<dPramanik.official@gmail.com>				%
+%-----------------------------------------------%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%			PAGE CONFIGURATIONS & Packages		 %%%
-%%%	NOTE: Check PackageConfig.tex for More Info. %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt, a4paper]{article}
 
 \usepackage{lmodern}
@@ -31,8 +28,8 @@
 \usepackage[dvipsnames]{xcolor}  % Text (Custom) Colors
 \usepackage[hidelinks]{hyperref} % DONOT Highlight URLs (remove optional Argumemnts?)
 
-\input{"./PackageConfig.tex"}    % Inserting all Package Configurations
 \input{"./AuthorDetails.tex"}    % Inserting Author Details Informations
+\input{"./PackageConfig.tex"}    % Inserting all Global Commands & Configurations
 
 %%% --- MAIN DOCUMENT --- %%%
 
@@ -52,7 +49,13 @@
 	}
 	
 	%%% --- SUMMARY SECTION --- %%%
-	\lettrine{\DropCaps A \hspace{1pt}}{nticipating} a Job Opportunity in the Field of Machine Learning and Deep Learning, wherein I can build and develop Business Logic that will not only facilitate operating costs, improving cost speed and accuracy of a system and enhance customer-experience quality, but will also provide evolution of knowledge and identity as a person.
+	\lettrine{\DropCaps A \hspace{1pt}}{nticipating} an engaging working environment where I can devote my knowledge and expertise, that will facilitate operating costs, improving speed and accuracy of a system.
+	
+	%% Words to include : (statistical, predictive, data) modelling; predictive analytics; query optimization;
+	
+	%\begin{center}
+	%	>>> BOOK PUBLICATION
+	%\end{center}
 	
 	%%% --- All Other Sections are Imported from ./sections/*.tex Files --- %%%
 	\input{"./sections/WExp.tex"} % Work Experience

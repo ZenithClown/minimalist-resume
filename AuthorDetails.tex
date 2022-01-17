@@ -24,7 +24,7 @@
 	%        {<reporting-manager-with-position>}{<manager-social-or-proffesional-profile-link>}
 	\section*{
 		\SectionStylingFont \bfseries \textcolor{dBlue}{#1 | #2} \hfill
-		\small {\SectionStylingFontLight \bfseries \textcolor{lBlue}{#3 \textemdash \vspace{1pt} #4}}
+		\small {\SectionStylingFontLight \bfseries \textcolor{lBlue}{\textbf{#3} \textemdash \vspace{1pt} #4}}
 	}
 	\vspace{-13pt}
 	{\SectionStylingFontLight \bfseries \textcolor{dBlue}{#5},}
@@ -41,7 +41,7 @@
 	}
 	\vspace{-13pt}
 	{\SectionStylingFontLight \bfseries \textcolor{dBlue}{#2}}
-	{\SectionStylingFontLight \textcolor{dBlue}{#4}}
+	{\SectionStylingFontLight \bfseries #4}
 }
 
 \newcommand{\SkillsHeaders}[1]{
@@ -61,15 +61,25 @@
 \newcommand{\ConfWorkshops}[3]{ % Conference and Workshops
 	% Usage : \ConfWorkshops{<conference-or-workshop-name>}{<date-time>}{<organisation>}
 	\section*{
-		\SectionStylingFont \bfseries \textcolor{dBlue}{{\small #2} \quad {\Large #1}} \hfill
-		\SectionStylingFontLight \bfseries \textcolor{lBlue}{#3}
+		{\small \SectionStylingFont \bfseries \textcolor{dBlue}{{#2} \quad {#1}} \hfill
+		\SectionStylingFontLight \bfseries \textcolor{lBlue}{#3}}
 	}
 }
 
 \newcommand\CyberPresence{ % Defines and Formats Total Internet Links
-	\HLinks{\mobile{(+91) 79800-92850}} \HLinks{\email{dPramanik.official@gmail.com}}
-	\HLinks{\linkedin{dpramanik}{dPramanik}} \HLinks{\github{ZenithClown}}
-	\HLinks{\pluralsight{Debmalya-Pramanik}} $\bullet$ \\
-	\HLinks{\researchgate{Debmalya_Pramanik2}} \HLinks{\stackoverflow{6623589}}
-	\HLinks{\kaggle{dPramanik}}
+	% ICON List : http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf
+	\HLinks{\social{\faMobilePhone}{(+91) 7980092850}{https://web.whatsapp.com/send?phone=917980092850}}
+	\HLinks{\social{\faEnvelope}{DebmalyaPramanik.005@gmail.com}{mailto:DebmalyaPramanik.005}}
+	\HLinks{\social{\faSkype}{Skype}{https://join.skype.com/invite/UetYrdl3CFLB}}
+	$\bullet$ \\
+	{\scriptsize
+		\HLinks{\social{\faLinkedin}{dPramanik}{https://www.linkedin.com/in/dPramanik}}
+		\HLinks{\social{\faGithubAlt}{Hub}{https://github.com/ZenithClown}}
+		\HLinks{\social{\faGitSquare}{Lab}{https://gitlab.com/ZenithClown}}
+		\HLinks{\social{\faHSquare}{HackerRank}{https://www.hackerrank.com/dPramanik}}
+		\HLinks{\social{\faStackOverflow}{6623589}{https://stackoverflow.com/users/6623589/}}
+		\HLinks{\social{\faExternalLinkSquare}{Kaggle}{https://www.kaggle.com/dPramanik/}}
+		\HLinks{\social{\faPlayCircleO}{PluralSight}{https://app.pluralsight.com/profile/Debmalya-Pramanik/}}
+		\HLinks{\social{\faBook}{ResearchGate}{https://www.researchgate.net/profile/Debmalya_Pramanik2/}}
 	$\bullet$}
+}
