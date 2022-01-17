@@ -1,8 +1,0 @@
-- layout: top-middle
-  name: <a href = "https://github.com/ZenithClown/agine">agine</a>
-  # link: https://github.com/ZenithClown/agine
-  # github: sproogen/resume-theme
-  # quote: >
-  #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  description: | # this will include new lines to allow paragraphs
-    A python library for finding Nearest Neighbor or to find if two points on Earth have a Direct Line of Sight.
