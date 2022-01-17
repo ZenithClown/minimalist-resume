@@ -1,0 +1,16 @@
+
+# .gitattributes for LaTeX-Files
+
+# Auto Detect text-Files and perform LF Normalizations
+* text=auto
+
+# Text File-Types
+*.md   text
+*.info text
+
+# git should not attempt automatic line feed, diff, and merge attempts for these types of files.
+*.pdf  -crlf -diff -merge
+*.jpg  -crlf -diff -merge
+*.png  -crlf -diff -merge
+*.xlsx -crlf -diff -merge
+*.docx -crlf -diff -merge
