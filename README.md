@@ -28,18 +28,8 @@
 
 ## Design Motivation
 
-<p align = "justify">The advent of powerful social platforms helps one in creating their own image and letting the masses know about an individuals' potential and expertise! Well, to showcase and let the recruiters know about your skill - firstly one needs a <i>resume</i>. This open-source project is specifically designed to generate one!</p>
-
-<p align = "justify">Most of the modern template came in a two-column Variant of some sort, which I specifically do not like (and sometimes is also unadvised by many). This presents a simple <i>single-column</i> traditional design CV, with some modern modifications like using external links, footer, modern fonts etc.</p>
-
-### Branches
-
-<p align = "justify"><a href = ""><b>Cover Letter</b></a> is an integral part of resume, and the same is developed keeping the styling and formatting same as that of the resume.</p>
+<p align = "justify">Most of the time, we do not give much attention to a cover letter format while putting an application! Well, to worry no more. Keeping styling and formatting the same as the resume, the document provide minimal design to create a cover letter.</p>
 
 ## Usage
 
 <p align = "justify">You are free to use my design, both personally and/or commercially. However, you are requested to cite the source, which will also help me in producing content like this.</p>
-
-## Credits
-
-<p algin = "justify">Some styling and fonts for the CV is taken from <a href = "https://github.com/posquit0/Awesome-CV">Awesome-CV</a>. Also I would like to mention Michael DeCorte whose <a href = "https://www.ctan.org/pkg/res">Open-Source Resume Class for LaTeX</a> inspired me while creating this design.</p>
